@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./JobPost.css";
 const JobPost = () => {
   const [formData, setFormData] = useState({
-    Title: "Full Stack developer Updated",
+    Title: "",
     Location: "",
     ExperienceMin: "",
     ExperienceMax: "",
@@ -11,7 +11,7 @@ const JobPost = () => {
     FunctionalArea: "",
     GraduatingYearMin: "",
     GraduatingYearMax: "",
-    Tags: "Tags",
+    Tags: "",
   });
 
   const formHandler = async (e) => {
